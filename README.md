@@ -24,36 +24,32 @@ This project is a full-stack **Task Tracker** web application, built using the *
 ## Project Structure
 
 ```
-# Project Directory Structure
-
-```plaintext
-<font color="#00FF00">.</font>
-├── <font color="#0000FF">Dockerfile</font>                   # Dockerfile backend
-├── <font color="#0000FF">client/</font>                      # Frontend directory
-│   ├── <font color="#0000FF">Dockerfile</font>               # Dockerfile for frontend service
-│   ├── <font color="#0000FF">package-lock.json</font>        
-│   ├── <font color="#0000FF">package.json</font>             # Frontend dependencies
-│   ├── <font color="#0000FF">public/</font>                  
-│   └── <font color="#0000FF">src/</font>
-│       ├── <font color="#0000FF">App.css</font>
-│       ├── <font color="#0000FF">App.js</font>               # Main React component
-│       ├── <font color="#0000FF">components/</font>          # Reusable React components
-│       ├── <font color="#0000FF">index.css</font>
-│       └── <font color="#0000FF">index.js</font>
-├── <font color="#0000FF">db.js</font>                        # PostgreSQL connection
-├── <font color="#0000FF">docker-compose.yml</font>           # Docker Compose file for backend, frontend, and PostgreSQL
-├── <font color="#0000FF">index.js</font>                     # Express.js backend entry point
-├── <font color="#0000FF">init.sql</font>                     # SQL file to initialize database and table
-├── <font color="#0000FF">package-lock.json</font>            
-├── <font color="#0000FF">package.json</font>                 # Backend dependencies
-├── <font color="#0000FF">scripts/</font>                     # Automation scripts for Docker
-│   ├── <font color="#0000FF">build.sh</font>                 # Script to build Docker images
-│   ├── <font color="#0000FF">run.sh</font>                   # Script to run Docker containers
-│   ├── <font color="#0000FF">stop.sh</font>                  # Script to stop containers
-│   ├── <font color="#0000FF">install-docker.sh</font>        # Script to install Docker and Docker Compose
-│   └── <font color="#0000FF">backup.sh</font>                # Script to back up the database
-├── <font color="#0000FF">crontab.txt</font>                  # cron job for automating daily backups
-
+.
+├── Dockerfile                   # Dockerfile backend
+├── client/                      # Frontend directory
+│   ├── Dockerfile               # Dockerfile for frontend service
+│   ├── package-lock.json        
+│   ├── package.json             # Frontend dependencies
+│   ├── public/                  
+│   └── src/
+│       ├── App.css
+│       ├── App.js               # Main React component
+│       ├── components/          # Reusable React components
+│       ├── index.css
+│       └── index.js
+├── db.js                        # PostgreSQL connection
+├── docker-compose.yml           # Docker Compose file for backend, frontend, and PostgreSQL
+├── index.js                     # Express.js backend entry point
+├── init.sql                     # SQL file to initialize database and table
+├── package-lock.json            
+├── package.json                 # Backend dependencies
+├── scripts/                     # Automation scripts for Docker
+│   ├── build.sh                 # Script to build Docker images
+│   ├── run.sh                   # Script to run Docker containers
+│   ├── stop.sh                  # Script to stop containers
+│   ├── install-docker.sh        # Script to install Docker and Docker Compose
+│   └── backup.sh                # Script to back up the database
+├── crontab.txt                  # cron job for automating daily backups 
 
 ```
 

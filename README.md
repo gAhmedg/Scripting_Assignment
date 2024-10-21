@@ -24,32 +24,36 @@ This project is a full-stack **Task Tracker** web application, built using the *
 ## Project Structure
 
 ```
-.
-├── \033[36mDockerfile\033[0m                   # \033[33mDockerfile backend\033[0m
-├── \033[36mclient/\033[0m                      # \033[33mFrontend directory\033[0m
-│   ├── \033[36mDockerfile\033[0m               # \033[33mDockerfile for frontend service\033[0m
-│   ├── \033[36mpackage-lock.json\033[0m        
-│   ├── \033[36mpackage.json\033[0m             # \033[33mFrontend dependencies\033[0m
-│   ├── \033[36mpublic/\033[0m                  
-│   └── \033[36msrc/\033[0m/
-│       ├── \033[36mApp.css\033[0m
-│       ├── \033[36mApp.js\033[0m               # \033[33mMain React component\033[0m
-│       ├── \033[36mcomponents/\033[0m          # \033[33mReusable React components\033[0m
-│       ├── \033[36mindex.css\033[0m
-│       └── \033[36mindex.js\033[0m
-├── \033[36mdb.js\033[0m                        # \033[33mPostgreSQL connection\033[0m
-├── \033[36mdocker-compose.yml\033[0m           # \033[33mDocker Compose file for backend, frontend, and PostgreSQL\033[0m
-├── \033[36mindex.js\033[0m                     # \033[33mExpress.js backend entry point\033[0m
-├── \033[36minit.sql\033[0m                     # \033[33mSQL file to initialize database and table\033[0m
-├── \033[36mpackage-lock.json\033[0m            
-├── \033[36mpackage.json\033[0m                 # \033[33mBackend dependencies\033[0m
-├── \033[36mscripts/\033[0m                     # \033[33mAutomation scripts for Docker\033[0m
-│   ├── \033[36mbuild.sh\033[0m                 # \033[33mScript to build Docker images\033[0m
-│   ├── \033[36mrun.sh\033[0m                   # \033[33mScript to run Docker containers\033[0m
-│   ├── \033[36mstop.sh\033[0m                  # \033[33mScript to stop containers\033[0m
-│   ├── \033[36minstall-docker.sh\033[0m        # \033[33mScript to install Docker and Docker Compose\033[0m
-│   └── \033[36mbackup.sh\033[0m                # \033[33mScript to back up the database\033[0m
-├── \033[36mcrontab.txt\033[0m                  # \033[33mcron job for automating daily backups\033[0m
+# Project Directory Structure
+
+```plaintext
+<font color="#00FF00">.</font>
+├── <font color="#0000FF">Dockerfile</font>                   # Dockerfile backend
+├── <font color="#0000FF">client/</font>                      # Frontend directory
+│   ├── <font color="#0000FF">Dockerfile</font>               # Dockerfile for frontend service
+│   ├── <font color="#0000FF">package-lock.json</font>        
+│   ├── <font color="#0000FF">package.json</font>             # Frontend dependencies
+│   ├── <font color="#0000FF">public/</font>                  
+│   └── <font color="#0000FF">src/</font>
+│       ├── <font color="#0000FF">App.css</font>
+│       ├── <font color="#0000FF">App.js</font>               # Main React component
+│       ├── <font color="#0000FF">components/</font>          # Reusable React components
+│       ├── <font color="#0000FF">index.css</font>
+│       └── <font color="#0000FF">index.js</font>
+├── <font color="#0000FF">db.js</font>                        # PostgreSQL connection
+├── <font color="#0000FF">docker-compose.yml</font>           # Docker Compose file for backend, frontend, and PostgreSQL
+├── <font color="#0000FF">index.js</font>                     # Express.js backend entry point
+├── <font color="#0000FF">init.sql</font>                     # SQL file to initialize database and table
+├── <font color="#0000FF">package-lock.json</font>            
+├── <font color="#0000FF">package.json</font>                 # Backend dependencies
+├── <font color="#0000FF">scripts/</font>                     # Automation scripts for Docker
+│   ├── <font color="#0000FF">build.sh</font>                 # Script to build Docker images
+│   ├── <font color="#0000FF">run.sh</font>                   # Script to run Docker containers
+│   ├── <font color="#0000FF">stop.sh</font>                  # Script to stop containers
+│   ├── <font color="#0000FF">install-docker.sh</font>        # Script to install Docker and Docker Compose
+│   └── <font color="#0000FF">backup.sh</font>                # Script to back up the database
+├── <font color="#0000FF">crontab.txt</font>                  # cron job for automating daily backups
+
 
 ```
 

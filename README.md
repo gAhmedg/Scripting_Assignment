@@ -81,6 +81,7 @@ This project is a full-stack **Task Tracker** web application, built using the *
 - Created API endpoints to handle CRUD operations with PostgreSQL.
 - Developed a responsive React interface to manage tasks, allowing users to create, update, delete, and list tasks.
 - Integrated PostgreSQL for data persistence, with backend logic for database communication.
+
 ![alt text](ss/55.png)
 ### Step 2: Containerize the Application Using Docker
 - Wrote separate `Dockerfiles` for the backend and frontend services.

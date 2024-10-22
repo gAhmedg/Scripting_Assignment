@@ -197,7 +197,6 @@ chmod +x build.sh run.sh stop.sh
 - Provisioned a cloud VM (on AWS EC2).
 - Set up secure SSH access and necessary network configurations.
 ##
-
 ##
 ### Step 5: Automate Deployment to the Cloud VM
 - By  clone repo for app and scripts
@@ -218,6 +217,8 @@ After building the images, use the run.sh script to start the containers:
 ```bash
 ./scripts/run.sh
 ```
+![alt text](ss/6.png)
+
 ### Step 6: Secure the Application and Configured firewall rules in VM 
 - Configured firewall rules to allow traffic only on the necessary ports (SSH, app port).
 

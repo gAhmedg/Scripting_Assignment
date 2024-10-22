@@ -177,7 +177,7 @@ docker-compose up --build
 2- **Access the Application**:
 - Frontend: Open `http://localhost:3001` in your browser.   
 
-![alt text](ss/4.png)
+![alt text](ss/8.png)
 
 - Backend API: Accessible at `http://localhost:5000/api/tasks`.
 

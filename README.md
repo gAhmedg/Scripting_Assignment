@@ -167,7 +167,7 @@ volumes:
 1-  **Build and Start the Services**:
     In the root directory, run:
 ```bash
-    docker-compose up --build
+docker-compose up --build
 ```
 
 2- **Access the Application**:
@@ -179,7 +179,7 @@ volumes:
 
 3- **Stop the Application**:
 ```bash
-    docker-compose down
+docker-compose down
 ```
 
 
@@ -190,7 +190,7 @@ volumes:
   - Stop the containers (`stop.sh`)
   then make the exasible 
 ```sh
-  chmod +x build.sh run.sh stop.sh
+chmod +x build.sh run.sh stop.sh
 ```
 
 ### Step 4: Set Up a Cloud Virtual Machine (VM)

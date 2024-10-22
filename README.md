@@ -60,8 +60,8 @@ This project is a full-stack **Task Tracker** web application, built using the *
 
 1. **Clone the Repository**:
 ```bash
-    git clone https://github.com/gAhmedg/todo-app.git
-    cd todo-app
+git clone https://github.com/gAhmedg/Scripting_Assignment.git
+cd todo-app
 ```
 
 2. **Set up Environment Variables**:

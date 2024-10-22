@@ -85,7 +85,7 @@ This project is a full-stack **Task Tracker** web application, built using the *
 ![alt text](ss/55.png)
 ### Step 2: Containerize the Application Using Docker
 - Wrote separate `Dockerfiles` for the backend and frontend services.
-```sh
+```Dockerfile
 # Dockerfile for backend
 FROM node:12.12.0-alpine
 WORKDIR /usr/src/app
@@ -97,7 +97,7 @@ EXPOSE 5000
 RUN cd client && npm install && npm run build
 CMD ["npm", "start"]
 ```
-```sh
+```Dockerfile
 # Dockerfile for front
 FROM node:12.12.0-alpine
 WORKDIR /app
@@ -109,7 +109,7 @@ CMD ["npm", "start"]
 ```
 - Used **Docker Compose** to define and manage multiple services (frontend, backend, and PostgreSQL database).
 - Ensured images are optimized and unnecessary files are excluded.
-```sh
+```yml
 # docker-compose.yml
 version: '3.8'
 
